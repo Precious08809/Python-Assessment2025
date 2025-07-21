@@ -1,7 +1,7 @@
 import configparser
 
 config = configparser.RawConfigParser()
-config.read("./Configurations/Base.ini")
+config.read("./Configuration/Base.ini")
 
 
 class ReadConfig_Base():
