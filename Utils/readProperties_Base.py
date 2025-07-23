@@ -1,11 +1,11 @@
 import configparser
 
 config = configparser.RawConfigParser()
-config.read("./Configurations/Base.ini")
+config.read("./Configuration/Base.ini")
 
 
 class ReadConfig_Base():
 
     def getURL(self):
-        return config.get("Common Details", "url")
+        return config.get("common details", "url")
 
